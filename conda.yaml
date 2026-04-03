@@ -1,0 +1,21 @@
+name: Qiskit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - argcomplete
+  - click
+  - h5py
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python
+  - ruamel.yaml
+  - scipy
+  - seaborn
+  - pip:
+    - qiskit[visualization]
+    - qiskit-ibm-runtime
+    - qiskit-aer
