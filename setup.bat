@@ -2,7 +2,7 @@ start /wait "" Miniconda3-latest-Windows-x86_64.exe /InstallationType=JustMe /Re
 
 @echo off
 :: 1. Define paths
-set CONDA_PATH=C:\Users\%USERNAME%\anaconda3
+set CONDA_PATH=C:\Users\%USERNAME%\Anaconda3
 
 :: 2. Initialize Conda for this batch session
 call %CONDA_PATH%\Scripts\activate.bat %CONDA_PATH%
